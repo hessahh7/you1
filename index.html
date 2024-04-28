@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candy Shop</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .navbar {
+            background-color: #ff8000;
+            padding: 20px;
+            color: white;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .image-container img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .description {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .footer {
+            background-color: #ff8000;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff8000;
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        // JavaScript code
+        function showThankYouMessage() {
+            alert("Thank you for your purchase!");
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Candies</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="image-container">
+        <img src="candy_image.jpg" alt="Candy Image">
+    </div>
+
+    <div class="description">
+        <h2>Welcome to our Candy Shop!</h2>
+        <p>
+            We offer a wide variety of delicious candies for all ages. Browse through our collection and satisfy your sweet tooth!
+        </p>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Candy Shop. All rights reserved.
+    </div>
+
+    <div class="button-container">
+        <a href="#" class="button">Buy Now</a>
+        <a href="#" class="button" onclick="showThankYouMessage()">Add to Cart</a>
+    </div>
+</body>
+</html>
